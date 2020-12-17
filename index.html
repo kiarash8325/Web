@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="object" id="object0">E</div>
+        <div class="object" id="object1">L</div>
+        <div class="object" id="object2">E</div>
+        <div class="object" id="object3">N</div>
+        <div class="object" id="object4">A</div>
+        <div class="object" id="object5"></div>
+        <div class="object" id="object6">T</div>
+        <div class="object" id="object7">R</div>
+        <div class="object" id="object8">U</div>
+        <div class="object" id="object9">S</div>
+        <div class="object" id="object10">T</div>
+        <div class="object" id="object11"></div>
+        <div class="object" id="object12">M</div>
+        <div class="object" id="object13">E</div>
+    </div>
+    <input type="button" value="Show" onclick="ShowWords()">
+    <input type="button" value="Hide" onclick="HidenWords()">
+</body>
+
+<script>
+    var name = "object";
+
+    function ShowWords() {
+        for (let i = 0; i <= 13; i++)
+            document.getElementById(name + i).style.display = "inline";
+    }
+
+    function HidenWords() {
+        for (let i = 0; i <= 13; i++)
+            document.getElementById(name + i).style.display = "none";
+    }
+</script>
+
+</html>
