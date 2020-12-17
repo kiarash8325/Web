@@ -2,16 +2,23 @@ body {
     background-image: linear-gradient(88deg, rgba(238, 255, 0, 1), rgba(255, 0, 0, 1));
 }
 
+footer,
+footer h1 {
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(225, 0, 255);
+    font-size: 200%;
+}
+
 .container img {
     width: 100%;
     height: 500px;
-    z-index: 10;
 }
 
 .main {
     position: absolute;
-    left: 20%;
-    top: 20%;
+    left: 40%;
+    top: 4%;
     height: 60px;
     display: flex;
     align-items: center;
@@ -19,7 +26,8 @@ body {
 }
 
 .object {
-    font-size: 100%;
+    padding-right: 5%;
+    font-size: 300%;
     color: rgb(255, 0, 0);
     display: none;
     width: 5px;
