@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-Menu.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="Menu-Body">
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-cogs"></i>
+                        <a href="#">SERVICES</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-briefcase"></i>
+                        <a href="#">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-bars"></i>
+                        <a href="#">MEGA MENU</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-blog"></i>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-image"></i>
+                        <a href="#">IMAGES</a>
+                    </li>
+                    <li onclick="ShowWords()">
+                        <i class="fas fa-shower" onclick="ShowWords()"></i>
+                        <a href="#" onclick="ShowWords()" style="color: red;">Show</a>
+                    </li>
+                    <li onclick="HidenWords()">
+                        <i class="fas fa-heading" onclick="HidenWords()"></i>
+                        <a href="#" onclick="HidenWords()" style="color: red;">Hide</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuaNqictNZNwbv3hszXLX4Rz4IhHAI07JBA&usqp=CAU" alt="">
+        </div>
+
+    </header>
+    <main>
+        <div class="main">
+            <div class="object" id="object0">E</div>
+            <div class="object" id="object1">L</div>
+            <div class="object" id="object2">E</div>
+            <div class="object" id="object3">N</div>
+            <div class="object" id="object4">A</div>
+            <div class="object" id="object5"></div>
+            <div class="object" id="object6">T</div>
+            <div class="object" id="object7">R</div>
+            <div class="object" id="object8">U</div>
+            <div class="object" id="object9">S</div>
+            <div class="object" id="object10">T</div>
+            <div class="object" id="object11"></div>
+            <div class="object" id="object12">M</div>
+            <div class="object" id="object13">E</div>
+        </div>
+    </main>
+    <footer>
+        ساخته شده توسط
+        <h1 class="made">النا</h1>
+    </footer>
+</body>
+
+<script>
+    var name = "object";
+
+    function ShowWords() {
+        for (let i = 0; i <= 13; i++)
+            document.getElementById(name + i).style.display = "inline";
+    }
+
+    function HidenWords() {
+        for (let i = 0; i <= 13; i++)
+            document.getElementById(name + i).style.display = "none";
+    }
+</script>
+
+</html>
