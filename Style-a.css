@@ -11,7 +11,7 @@
 .Header-Image {
     width: 1350px;
     height: 650px;
-    background-image: url('../Images/Header_Image.jpg');
+    background-image: url('Header_Image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
